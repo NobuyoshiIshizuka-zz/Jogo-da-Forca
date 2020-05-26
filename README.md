@@ -12,3 +12,5 @@ Nas imagens abaixo segue os exemplos do jogo rodando no console do Eclipse:
 
 <img align="center" src="img/img2.png" width="900">
 
+<img align="center" src="img/jogo-da-forca.mp4" width="900">
+
