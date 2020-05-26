@@ -46,19 +46,19 @@ public class Game {
 				usedChars.add(c);
 
 				if (word.hasChar(c)) {
-					UI.print("Você acetou essa letra!");
+					UI.print("Você Acertou a Letra!");
 				} else {
 					errorCount++;
 
 					if (errorCount < maxErrors) {
-						UI.print("Você errou! Você ainda pode errar: " + (maxErrors - errorCount) + "Vez(es)");
+						UI.print("Você Errou! Você Ainda Pode Errar: " + (maxErrors - errorCount) + "Vez(es)");
 					}
 				}
 
 				UI.printNewline();
 
 				if (word.discovered()) {
-					UI.print("Parabéns você acertou a palavra completa: " + word.getOriginalWord());
+					UI.print("Parabéns! Você Acertou a Palavra ompleta: " + word.getOriginalWord());
 					UI.print("Fim de Jogo!");
 					break;
 				}
