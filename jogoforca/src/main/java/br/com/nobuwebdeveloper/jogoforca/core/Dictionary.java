@@ -39,6 +39,7 @@ public class Dictionary {
 
 			if (words.size() == 0) {
 				throw new GameException("A lista de palavras não pode ser vazia");
+					
 			}
 		}
 	}

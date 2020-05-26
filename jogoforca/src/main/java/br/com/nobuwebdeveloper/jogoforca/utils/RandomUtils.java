@@ -10,3 +10,4 @@ public class RandomUtils {
 		 return random.nextInt(max - min + 1) + min;
 	}
 }
+

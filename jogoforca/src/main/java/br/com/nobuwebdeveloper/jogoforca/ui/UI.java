@@ -26,12 +26,12 @@ public class UI {
 		}
 
 		if (line.length() > 1) {
-			throw new InvalidCharacterException("Apenas uma letra foi digitada");
+			throw new InvalidCharacterException("Apenas uma letra deve ser digitada");
 		}
 
 		char c = line.charAt(0);
 
-		if (Character.isLetter(c)) {
+		if (!Character.isLetter(c)) {
 			throw new InvalidCharacterException("Apenas letras devem ser digitadas");
 		}
 
