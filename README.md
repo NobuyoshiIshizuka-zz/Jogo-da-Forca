@@ -1,6 +1,9 @@
-# Jogo-da-Forca
-Desenvolvimento de um jogo da forca.
+<h1 align="center"> Jogo-da-Forca </h1>
 
- ## Imagem 1: Exemplo do Jogo Rodando no console do Eclipse.##
+<h2>Desenvolvimento de um jogo da forca.</h2>
+
+ ## Imagem 1: Exemplo do Jogo Rodando no console do Eclipse. ##
  
-<img align="center" src="img/Exemplo_Jogo.mp4" width="900">
+<video width="320" height="240" autoplay>
+  <source src="img/Exemplo_Jogo.mp4" type="video/mp4">
+</video>
